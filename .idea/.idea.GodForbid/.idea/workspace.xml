@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b30c2ca7-8843-4e6e-a2bd-ca1e8e81d5a8" name="Changes" comment="" />
+    <list default="true" id="b30c2ca7-8843-4e6e-a2bd-ca1e8e81d5a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GodForbid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodForbid/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenArt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenArt/TitleScreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenArt/TitleScreen.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenScripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenScripts/UIController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScreenScripts/UIController.cs.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "keira-ryan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/keira-ryan/God_Forbid.git",
+    "accountId": "f792e25a-a359-4010-9418-06023c8cb7de"
+  }
+}]]></component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -24,7 +48,12 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
@@ -94,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758820017525</updated>
-      <workItem from="1758820019515" duration="114000" />
+      <workItem from="1758820019515" duration="10778000" />
     </task>
     <servers />
   </component>
