@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace DamageSystem 
 {
@@ -19,6 +20,8 @@ namespace DamageSystem
         public Team Team { get; set; }
         public float CurrentHealth { get; set; }
         public bool Dead { get; private set; }
+
+        public Slider HealthSlider;
 
         public Action<HitEventInfo> OnHit;
         public Action OnDeath;
@@ -57,6 +60,7 @@ namespace DamageSystem
                 return;
 
             CurrentHealth = newHealth;
+            HealthSlider.value = newHealth;
             DeathCheck();
         }
 

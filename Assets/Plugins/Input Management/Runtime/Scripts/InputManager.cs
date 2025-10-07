@@ -20,7 +20,8 @@ namespace InputManagement
     [DefaultExecutionOrder(-100)]
     public class InputManager : MonoBehaviour
     {
-        public InputState Input => inputEnabled ? input : null;
+        public InputState Input => inputEnabled ? input : emptyInput;
+        private static readonly InputState emptyInput = new InputState();
         private InputState input = new InputState();
 
         #region PlayerInput

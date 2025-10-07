@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f9e9cb1e7fc492e846f00b1dfb0259, type: 3}
+  m_Name: SampleDialogue
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Hey, did you know?
+  - God is dead...
+  - All that's left are corrupt fragments of creation.
+  - Why are you still here?
+  - Do you still have meaning without a creator?
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: d07d80354b5f8401ca893f23e447fe0c, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 20c08fc134da447b2b80b063b0fd4072, type: 2}

@@ -23,7 +23,7 @@ namespace ControllerSystem {
         private bool UsingKeyboardAndMouse => InputManager.PlayerInput.currentControlScheme == "Keyboard&Mouse";
         public Vector2 NormalizedAimDirection => NormalizedAimDir();
         public Vector2 NormalizedMoveDirection => NormalizeInputDirection(InputManager.Input.move.GetValue());
-        public bool InputtingHorizontalMovement => Mathf.Abs(InputManager.Input.move.GetValue(0).x) > 0.5f;
+        public bool InputtingHorizontalMovement => InputManager.Input != null && Mathf.Abs(InputManager.Input.move.GetValue(0).x) > 0.5f;
         
         private Vector2 NormalizedAimDir()
         {

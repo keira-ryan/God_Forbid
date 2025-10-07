@@ -7,12 +7,11 @@
     <list default="true" id="b30c2ca7-8843-4e6e-a2bd-ca1e8e81d5a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GodForbid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodForbid/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScreenArt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScreenArt/TitleScreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScreenArt/TitleScreen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScreenScripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScreenScripts/UIController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScreenScripts/UIController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlatformerSample/Controller WIth Hurtbox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlatformerSample/Controller WIth Hurtbox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlatformerSample/Crow.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlatformerSample/Crow.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Controller/EntityController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Controller/EntityController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Damage System/Scripts/Hurtbox.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Damage System/Scripts/Hurtbox.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Input Management/Runtime/Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Input Management/Runtime/Scripts/InputManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,43 +21,58 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "keira-ryan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;keira-ryan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/keira-ryan/God_Forbid.git",
-    "accountId": "f792e25a-a359-4010-9418-06023c8cb7de"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/keira-ryan/God_Forbid.git&quot;,
+    &quot;accountId&quot;: &quot;f792e25a-a359-4010-9418-06023c8cb7de&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Controller/EntityController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovementData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueActivator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueResponseEevents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueTypewriter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/IInteractable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/ResponseEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="33CTNrcwojWNvyShL7q09vlq78N" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.57f1/Unity.app/Contents/MacOS/Unity" />
@@ -123,8 +137,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758820017525</updated>
-      <workItem from="1758820019515" duration="10778000" />
+      <workItem from="1758820019515" duration="13496000" />
+      <workItem from="1759003970907" duration="24297000" />
+      <workItem from="1759447847308" duration="713000" />
+      <workItem from="1759721525002" duration="1684000" />
+      <workItem from="1759723735858" duration="22554000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated UI controls with game states and started player movement.">
+      <option name="closed" value="true" />
+      <created>1758845348187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758845348187</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Updated UI controls with game states and started player movement." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated UI controls with game states and started player movement." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
