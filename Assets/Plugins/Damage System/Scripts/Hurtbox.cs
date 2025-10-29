@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,6 +15,7 @@ namespace DamageSystem
         [SerializeField] private bool _invincible = false;
         [Tooltip("Non-substantial hitboxes don't trigger the 'first hit' event on hitboxes. Useful for background objects")]
         [SerializeField] private bool _substantial = true;
+        [SerializeField] private SpriteRenderer _spriteRenderer;
         public bool Invincible => _invincible;
         public bool Intangible => _intangible;
         public bool Substantial => _substantial;
@@ -22,11 +24,13 @@ namespace DamageSystem
         public bool Dead { get; private set; }
 
         public Slider HealthSlider;
+        public CanvasGroup HealthUI;
 
         public Action<HitEventInfo> OnHit;
         public Action OnDeath;
         
         private Collider2D _collision;
+        private Color originalColor;
         public Vector2 CenterPosition => (Vector2)transform.position + _collision.offset;
 
         private void Awake()
@@ -34,6 +38,7 @@ namespace DamageSystem
             gameObject.layer = Layers.Hurtbox;
             _collision = GetComponent<Collider2D>();
             CurrentHealth = _startingHealth;
+            originalColor = _spriteRenderer.color;
         }
 
         public void TakeDamage(HitInfo hitInfo)
@@ -49,6 +54,11 @@ namespace DamageSystem
             DeathCheck();
         }
 
+        public void DecrementHealth(float damage)
+        {
+            SetHealth(CurrentHealth - damage);
+        }
+
         public void SetHealth(float newHealth)
         {
             if (Invincible)
@@ -61,7 +71,22 @@ namespace DamageSystem
 
             CurrentHealth = newHealth;
             HealthSlider.value = newHealth;
+            
             DeathCheck();
+
+            if (CurrentHealth >= 0)
+            {
+                StartCoroutine(DamageEffect());
+            }
+        }
+
+        private IEnumerator DamageEffect()
+        {
+            if (_spriteRenderer == null) yield break;
+            
+            _spriteRenderer.color = Color.red;
+            yield return new WaitForSeconds(0.2f);
+            _spriteRenderer.color = originalColor;
         }
 
         private void DeathCheck()
@@ -73,6 +98,8 @@ namespace DamageSystem
             if (Dead)
             {
                 OnDeath?.Invoke();
+                _spriteRenderer.enabled = false; //COME BACK
+                HealthUI.alpha = 0;
             }
         }
     }

@@ -15,9 +15,9 @@ MonoBehaviour:
   dialogue:
   - Hey, did you know?
   - God is dead...
-  - All that's left are corrupt fragments of creation.
+  - All that's left are some pretty messed up fragments of creation.
   - Why are you still here?
-  - Do you still have meaning without a creator?
+  - Do you think you still have meaning without a creator?
   responses:
   - responseText: Yes
     dialogueObject: {fileID: 11400000, guid: d07d80354b5f8401ca893f23e447fe0c, type: 2}
