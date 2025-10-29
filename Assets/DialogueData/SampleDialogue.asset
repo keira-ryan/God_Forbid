@@ -20,6 +20,6 @@ MonoBehaviour:
   - Do you think you still have meaning without a creator?
   responses:
   - responseText: Yes
-    dialogueObject: {fileID: 11400000, guid: d07d80354b5f8401ca893f23e447fe0c, type: 2}
+    dialogueObject: {fileID: 11400000, guid: b5c2c3911285347acbb9674d5a37dbbd, type: 2}
   - responseText: No
     dialogueObject: {fileID: 11400000, guid: 20c08fc134da447b2b80b063b0fd4072, type: 2}
