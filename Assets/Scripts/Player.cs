@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using DamageSystem;
 using DG.Tweening;
@@ -28,6 +29,8 @@ public class Player : MonoBehaviour
     private float baseOffsetX;
 
     private bool FacingLeft = false;
+
+    public static event Action OnHealingGranted;
 
     void Start()
     {
@@ -79,7 +82,7 @@ public class Player : MonoBehaviour
 
     private void Heal()
     {
-        if (hasHealing && pneuma >= 5)
+        if (hasHealing && pneuma >= 5 && hurtbox.CurrentHealth < 20)
         {
             hurtbox.SetHealth(Mathf.Min(hurtbox.CurrentHealth + 5, 20));
             pneuma -= 5;
@@ -90,6 +93,7 @@ public class Player : MonoBehaviour
     public void GrantHealing()
     {
         hasHealing = true;
+        OnHealingGranted?.Invoke();
     }
 
     void FixedUpdate()

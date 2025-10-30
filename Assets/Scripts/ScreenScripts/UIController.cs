@@ -1,3 +1,5 @@
+using System.Collections;
+using TMPro;
 using UnityEngine;
 
 
@@ -10,6 +12,7 @@ public class UIController : MonoBehaviour
     public GameObject endScreen;
     public GameObject pauseScreen;
     public GameObject playUI;
+    public TextMeshProUGUI controlsUI;
 
     private void Awake()
     {
@@ -28,6 +31,7 @@ public class UIController : MonoBehaviour
         startScreen.SetActive(true);
         pauseScreen.SetActive(false);
         endScreen.SetActive(false);
+        controlsUI.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -74,6 +78,30 @@ public class UIController : MonoBehaviour
         startScreen.SetActive(false);
         endScreen.SetActive(false);
         pauseScreen.SetActive(false);
+    }
+
+    private void ShowHealInstruction()
+    {
+        string message = "Right click to heal using Pneuma";
+        StartCoroutine(ShowControlsInstruction(message));
+    }
+
+    private IEnumerator ShowControlsInstruction(string message)
+    {
+        controlsUI.text = message;
+        controlsUI.gameObject.SetActive(true);
+        yield return new WaitForSeconds(4f);
+        controlsUI.gameObject.SetActive(false);
+    }
+
+    private void OnEnable()
+    {
+        Player.OnHealingGranted += ShowHealInstruction;
+    }
+
+    private void OnDisable()
+    {
+        Player.OnHealingGranted -= ShowHealInstruction;
     }
     
     
