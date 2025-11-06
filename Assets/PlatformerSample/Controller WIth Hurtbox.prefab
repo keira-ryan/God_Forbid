@@ -134,6 +134,7 @@ MonoBehaviour:
   _platformerJumpModule: {fileID: 7276706453744137074}
   _crouchModule: {fileID: 0}
   _platformerWallModule: {fileID: 0}
+  _player: {fileID: 0}
 --- !u!1 &156159312054672884
 GameObject:
   m_ObjectHideFlags: 0
