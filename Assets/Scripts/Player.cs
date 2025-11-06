@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using DamageSystem;
 using DG.Tweening;
@@ -19,6 +20,8 @@ public class Player : MonoBehaviour
     public CinemachinePositionComposer positionComposer;
     public DialogueUI DialogueUI => dialogueUI;
     public Slider PneumaSlider;
+    
+    public event Action OnBasicAttack;
 
     private bool hasHealing;
     
@@ -27,7 +30,9 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private float baseOffsetX;
 
-    private bool FacingLeft = false;
+    //private bool FacingLeft = false;
+
+    public static event Action OnHealingGranted;
 
     void Start()
     {
@@ -66,6 +71,7 @@ public class Player : MonoBehaviour
 
     private void BasicAttack()
     {
+        OnBasicAttack?.Invoke();
         Vector2 direction = transform.localScale.x > 0 ? Vector2.right : Vector2.left;
         hitbox.Activate(hitInfo, direction);
         StartCoroutine(DeactivateHitboxAfterDelay(0.2f));
@@ -79,7 +85,7 @@ public class Player : MonoBehaviour
 
     private void Heal()
     {
-        if (hasHealing && pneuma >= 5)
+        if (hasHealing && pneuma >= 5 && hurtbox.CurrentHealth < 20)
         {
             hurtbox.SetHealth(Mathf.Min(hurtbox.CurrentHealth + 5, 20));
             pneuma -= 5;
@@ -90,13 +96,15 @@ public class Player : MonoBehaviour
     public void GrantHealing()
     {
         hasHealing = true;
+        OnHealingGranted?.Invoke();
     }
 
     void FixedUpdate()
     {
-        TurnCheck();
+        //TurnCheck();
     }
 
+    /*
     private void TurnCheck()
     {
         float moveDir = rb.linearVelocity.x; 
@@ -120,6 +128,7 @@ public class Player : MonoBehaviour
         transform.eulerAngles = rotation;
         //TweenOnTurn();
     }
+    */
 
     private void OnEnable()
     {
