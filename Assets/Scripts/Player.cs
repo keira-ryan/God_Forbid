@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     public event Action OnBasicAttack;
 
     private bool hasHealing;
+    private bool hasBomb;
+    private bool hasBlast;
     
     public IInteractable Interactable { get; set; }
     
@@ -33,6 +35,8 @@ public class Player : MonoBehaviour
     //private bool FacingLeft = false;
 
     public static event Action OnHealingGranted;
+    public static event Action OnBombGranted;
+    public static event Action OnBlastGranted;
 
     void Start()
     {
@@ -46,6 +50,8 @@ public class Player : MonoBehaviour
         pneuma = 0;
         PneumaSlider.value = pneuma;
         hasHealing = false;
+        hasBlast = false;
+        hasBomb = false;
     }
     
 
@@ -67,6 +73,26 @@ public class Player : MonoBehaviour
         {
             Heal();
         }
+
+        if (Input.GetKeyDown(KeyCode.Q) && hasBlast)
+        {
+            Blast();
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Q) && hasBomb)
+        {
+            PlaceBomb();
+        }
+    }
+
+    private void PlaceBomb()
+    {
+        
+    }
+
+    private void Blast()
+    {
+        
     }
 
     private void BasicAttack()
@@ -99,36 +125,17 @@ public class Player : MonoBehaviour
         OnHealingGranted?.Invoke();
     }
 
-    void FixedUpdate()
+    public void GrantBombs()
     {
-        //TurnCheck();
+        hasBomb = true;
+        OnBombGranted?.Invoke();
     }
 
-    /*
-    private void TurnCheck()
+    public void GrantBlast()
     {
-        float moveDir = rb.linearVelocity.x; 
-
-        if (moveDir > 0.01f && FacingLeft)
-        {
-            FacingLeft = false;
-            Flip();
-        }
-        else if (moveDir < -0.01f && !FacingLeft)
-        {
-            FacingLeft = true;
-            Flip();
-        }
+        hasBlast = true;
+        OnBlastGranted?.Invoke();
     }
-
-    private void Flip()
-    {
-        Vector3 rotation = transform.eulerAngles;
-        rotation.y += 180f;
-        transform.eulerAngles = rotation;
-        //TweenOnTurn();
-    }
-    */
 
     private void OnEnable()
     {
