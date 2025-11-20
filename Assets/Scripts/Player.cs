@@ -14,6 +14,10 @@ public class Player : MonoBehaviour
     [SerializeField] private HitInfo hitInfo;
     [SerializeField] private Hurtbox hurtbox;
     [SerializeField] private int pneuma;
+    [SerializeField] private GameObject bombPrefab;
+    [SerializeField] private FocusBlast blastPrefab;
+    [SerializeField] private Transform bombSpawnTransform;
+    [SerializeField] private Transform blastSpawnTransform;
     
     public CinemachineCamera vCamera;
     public float offsetAmount = 1f;
@@ -87,12 +91,24 @@ public class Player : MonoBehaviour
 
     private void PlaceBomb()
     {
-        
+        if (pneuma >= 3)
+        {
+            pneuma -= 3;
+            PneumaSlider.value = pneuma;
+            Instantiate(bombPrefab, bombSpawnTransform.position, Quaternion.identity);
+        }
     }
 
     private void Blast()
     {
-        
+        bool facingRight = transform.localScale.x > 0;
+        if (pneuma >= 7) {
+            pneuma -= 7;
+            PneumaSlider.value = pneuma;
+            
+            FocusBlast blastProjectile = Instantiate(blastPrefab, blastSpawnTransform.position, Quaternion.identity);
+            blastProjectile.Initialize(transform, facingRight);
+        }
     }
 
     private void BasicAttack()
@@ -150,7 +166,14 @@ public class Player : MonoBehaviour
 
     private void incrementPneuma(HitEventInfo info)
     {
-        pneuma += 4;
+        if ((pneuma + 4) > 20)
+        {
+            pneuma = 20;
+        }
+        else
+        {
+            pneuma += 4;
+        }
         PneumaSlider.value = pneuma;
     }
 }

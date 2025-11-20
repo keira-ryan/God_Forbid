@@ -22,15 +22,12 @@ public class SchopenhauerAI : MonoBehaviour
 
     private void Start()
     {
-        //identifying child components
         rb = GetComponent<Rigidbody2D>();
         hurtbox = GetComponentInChildren<Hurtbox>();
         animator = GetComponent<Animator>();
         
-        //set up boss health 
         hurtbox.SetHealth(maxHealth);
         
-        //
         currentState = BossState.Frozen;
         StartCoroutine(StateLoop());
     }
