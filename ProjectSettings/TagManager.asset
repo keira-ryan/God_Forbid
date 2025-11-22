@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Climbable
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -15,8 +16,8 @@ TagManager:
   - Hurtbox
   - Hitbox
   - Platform
-  - 
-  - 
+  - Boss
+  - Ground
   - 
   - 
   - 

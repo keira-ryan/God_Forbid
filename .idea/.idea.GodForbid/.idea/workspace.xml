@@ -5,9 +5,112 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b30c2ca7-8843-4e6e-a2bd-ca1e8e81d5a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/BackgroundSample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/BackgroundSample.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/CamScanner 10-7-25 15.48_1 2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/CamScanner 10-7-25 15.48_1 2.JPG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/CamScanner 10-7-25 15.50_1 2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/CamScanner 10-7-25 15.50_1 2.JPG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/IMG_4222.HEIC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/IMG_4222.HEIC.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/IMG_4223.HEIC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/IMG_4223.HEIC.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/IMG_4224.HEIC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/ScreenArt/IMG_4224.HEIC.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DialogueData/HealingGranted.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DialogueData/HealingGranted.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DialogueData/StillHere.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DialogueData/StillHere.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/BehaviorSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GodForbid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GodForbid/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/CharacterArt/Player Variant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/CharacterArt/Player Variant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/CharacterArt/Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/CharacterArt/Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BehaviorGraphs/JumpAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BehaviorGraphs/PlayerDistanceCondition.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Gizmos.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low_Swordman/Demo/Scripts/CameraController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low_Swordman/Demo/Scripts/Demo_GM.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low_Swordman/Demo/Scripts/GroundSensor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low_Swordman/Demo/Scripts/PlayerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Low_Swordman/Demo/Scripts/Swordman.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/New Folder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Behavior/1.0.13/Unity Behavior Example/Actions/SetRandomTargetAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/Behavior/1.0.13/Unity Behavior Example/Actions/TalkAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CombatScripts/BasicAttack.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CombatScripts/BlastAbility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CombatScripts/Bomb.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CombatScripts/Enemy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CombatScripts/FocusBlast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CombatScripts/HealAbility.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CombatScripts/Pneuma.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CombatScripts/SchopenhauerAI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/EntityController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Motor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Animation/BossAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Animation/EntityAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Animation/PlatformerAnimator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/GroundCheck.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Movement Modules/FighterController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Movement Modules/PlatformerCrouchModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Movement Modules/PlatformerHorizontalMovementModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Movement Modules/PlatformerJumpModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Movement Modules/PlatformerMotorModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Movement Modules/PlatformerWallModule.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/PlatformerColliderManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/PlatformerMotor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Squash + Stretch/JumpSquashStretch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Damage System/Scripts/DamageExtras.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Damage System/Scripts/FriendlyFireManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Damage System/Scripts/Hitbox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Damage System/Scripts/Hurtbox.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/DOTween.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Modules/DOTweenModuleEPOOutline.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Enum Layers and Tags/EnumLayersAndTags.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Enum Layers and Tags/Scripts/LayerEnumerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Enum Layers and Tags/Scripts/Layers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Enum Layers and Tags/Scripts/TagEnumerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Enum Layers and Tags/Scripts/Tags.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/AxisInputProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/ButtonInputProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/Input Receivers/BufferedChargeInputReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/Input Receivers/ButtonInputReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/Input Receivers/DoubleTapInputReceiver.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/Input Receivers/InputBinder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/Input Receivers/Utility/Timer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/InputListener.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/InputManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/InputProvider.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/InputState.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/Utility/PriorityGrouper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/Utility/RemoveXInputGamepads.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plugins/Input Management/Runtime/Scripts/com.shellter.input-management.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenScripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenScripts/Editor/DialogueResponseEventsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenScripts/Editor/DialogueResponseEventsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenScripts/UIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenScripts/UIController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +139,21 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Art.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BehaviorGraphs/AttackAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BehaviorGraphs/FacePlayerAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BehaviorGraphs/JumpAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/BehaviorGraphs/PlayerDistanceCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlatformerSample/Controller WIth Hurtbox.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CombatScripts/HealAbility.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CombatScripts/Pneuma.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CombatScripts/SchopenhauerAI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Plugins/Controller/Platformer Movement/Animation/BossAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/keiraryan/Documents/UnityProjects/GodForbid/Assets/Scripts/CombatScripts/SchopenhauerAI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/keiraryan/Documents/UnityProjects/GodForbid/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/keiraryan/Documents/UnityProjects/GodForbid/Assets/Scripts/Plugins/Enum Layers and Tags/Scripts/Layers.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueActivator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueResponseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueTypewriter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/DialogueUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/Editor/DialogueResponseEventsEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/IInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/Response.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/ResponseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/ResponseEvent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenScripts/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundScripts/Music.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -215,7 +311,31 @@
       <option name="project" value="LOCAL" />
       <updated>1761867513507</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added unversioned files">
+      <option name="closed" value="true" />
+      <created>1763622019837</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1763622019837</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated player abilities: focus blast and plant bombs!">
+      <option name="closed" value="true" />
+      <created>1763641652931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763641652931</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added blast and bomb prefabs!">
+      <option name="closed" value="true" />
+      <created>1763641716449</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1763641716449</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +379,10 @@
     <MESSAGE value="Updated hitbox and hurtbox functionality!" />
     <MESSAGE value="Updated and debugged healing ability!" />
     <MESSAGE value="Updated Pneuma controls and UI." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Pneuma controls and UI." />
+    <MESSAGE value="Added unversioned files" />
+    <MESSAGE value="Updated player abilities: focus blast and plant bombs!" />
+    <MESSAGE value="added blast and bomb prefabs!" />
+    <option name="LAST_COMMIT_MESSAGE" value="added blast and bomb prefabs!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
