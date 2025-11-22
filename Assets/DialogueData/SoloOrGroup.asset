@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f9e9cb1e7fc492e846f00b1dfb0259, type: 3}
+  m_Name: SoloOrGroup
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - In this crumbling, dilapidated world, it is rather lonely.
+  - 'Such a shame all of us beings are separate. '
+  - Would you abandon your individuality if it meant living in peace as one?
+  responses:
+  - responseText: Yes
+    dialogueObject: {fileID: 11400000, guid: 44ecf0af109ec40dd8270a46e9cbc276, type: 2}
+  - responseText: No
+    dialogueObject: {fileID: 11400000, guid: 0ca3e357de25a4a17ae6f57f4ab1ebc5, type: 2}

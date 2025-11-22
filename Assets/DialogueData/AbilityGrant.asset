@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77f9e9cb1e7fc492e846f00b1dfb0259, type: 3}
+  m_Name: AbilityGrant
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueObject
+  dialogue:
+  - Hey! Which ability do you want?
+  responses:
+  - responseText: Bombs!
+    dialogueObject: {fileID: 11400000, guid: 047f2bda7627d4fd1b88a77e5046050b, type: 2}
+  - responseText: Focus Blast!
+    dialogueObject: {fileID: 11400000, guid: 4ad164cdf59294e8da8a011ab0910e55, type: 2}
